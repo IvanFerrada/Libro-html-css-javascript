@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <section>
+        <form name="informacion" method="get">
+            usuario:
+            <input pattern="[A-Z] {3}" name="usuario" id="usuario" maxlength="10" required>
+            Email:
+            <input type="email" name="miemail" id="miemail" required>
+            Rango de edad:
+            <input type="range" name="miedad" id="miedad" min="0" max="80" step="20" value="20">
+
+            <output id="rango">0</output>
+            <input type="button" id="enviar" value="ingresar">
+        </form> 
+    </section>
+<script src="javascript/formulari2.js"></script>    
+</body>
+</html>
